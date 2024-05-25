@@ -1,0 +1,27 @@
+/* animations.css */
+header {
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .parallax .content {
+    animation: slideInFromLeft 2s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInFromLeft {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
